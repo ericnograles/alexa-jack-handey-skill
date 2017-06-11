@@ -6,7 +6,7 @@
 
 This small Node.js library demonstrates a rudimentary Lambda function and supporting IntentSchemas and Utterances for an Jack Handey as an Alexa Skill.
 
-This integrates with [Contentful](https://www.contentful.com) using the [request](https://www.npmjs.com/package/request) library to allow for dynamically managed loaded Deep Thoughts.
+This integrates with [Contentful](https://www.contentful.com) using the [request](https://www.npmjs.com/package/request) library to allow for dynamically managed/loaded Deep Thoughts.
 
 ## Prerequisites
 
