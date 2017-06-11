@@ -1,0 +1,17 @@
+{
+  "name": "alexa-jack-handey-skill",
+  "version": "1.0.0",
+  "description": "The Jack Handey skill codebase for Alexa",
+  "main": "index.js",
+  "author": "Eric Nograles <grales@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-sdk": "^1.0.10",
+    "bluebird": "^3.5.0",
+    "request": "^2.81.0"
+  },
+  "scripts":{
+    "aws:package": "rm alexa-jack-handey-skill.zip && zip -X -r alexa-jack-handey-skill.zip *",
+    "aws:deploy": "npm run aws:package && aws lambda update-function-code --function-name JackHandeySkillFunction --zip-file fileb://alexa-jack-handey-skill.zip --profile PERSONAL:LAMBDA"
+  }
+}
