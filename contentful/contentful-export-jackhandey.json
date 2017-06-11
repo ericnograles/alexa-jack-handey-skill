@@ -1,0 +1,547 @@
+{
+    "contentTypes": [
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "ts1zp59r04ps"
+                    }
+                },
+                "id": "deepThought",
+                "type": "ContentType",
+                "createdAt": "2017-06-10T22:43:01.494Z",
+                "updatedAt": "2017-06-10T22:43:01.697Z",
+                "createdBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "updatedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "publishedCounter": 1,
+                "version": 2,
+                "publishedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "publishedVersion": 1,
+                "firstPublishedAt": "2017-06-10T22:43:01.677Z",
+                "publishedAt": "2017-06-10T22:43:01.677Z"
+            },
+            "displayField": "quote",
+            "name": "DeepThought",
+            "description": "",
+            "fields": [
+                {
+                    "id": "quote",
+                    "name": "quote",
+                    "type": "Text",
+                    "localized": false,
+                    "required": false,
+                    "validations": [],
+                    "disabled": false,
+                    "omitted": false
+                },
+                {
+                    "id": "category",
+                    "name": "category",
+                    "type": "Symbol",
+                    "localized": false,
+                    "required": true,
+                    "validations": [
+                        {
+                            "in": [
+                                "war",
+                                "humanity",
+                                "children",
+                                "death"
+                            ]
+                        }
+                    ],
+                    "disabled": false,
+                    "omitted": false
+                }
+            ]
+        }
+    ],
+    "entries": [
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "ts1zp59r04ps"
+                    }
+                },
+                "id": "6kcScFM9IQgCaUEUUEMsMg",
+                "type": "Entry",
+                "createdAt": "2017-06-10T22:43:17.940Z",
+                "updatedAt": "2017-06-10T22:43:28.934Z",
+                "createdBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "updatedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "publishedCounter": 1,
+                "version": 5,
+                "publishedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "publishedVersion": 4,
+                "firstPublishedAt": "2017-06-10T22:43:28.868Z",
+                "publishedAt": "2017-06-10T22:43:28.868Z",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "deepThought"
+                    }
+                }
+            },
+            "fields": {
+                "quote": {
+                    "en-US": "I can picture in my mind a world without war, a world without hate. And I can picture us attacking that world, because they’d never expect it."
+                },
+                "category": {
+                    "en-US": "war"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "ts1zp59r04ps"
+                    }
+                },
+                "id": "4wclgG7jiomugIe06eS80e",
+                "type": "Entry",
+                "createdAt": "2017-06-10T22:43:42.379Z",
+                "updatedAt": "2017-06-10T22:43:58.623Z",
+                "createdBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "updatedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "publishedCounter": 1,
+                "version": 9,
+                "publishedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "publishedVersion": 8,
+                "firstPublishedAt": "2017-06-10T22:43:58.595Z",
+                "publishedAt": "2017-06-10T22:43:58.595Z",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "deepThought"
+                    }
+                }
+            },
+            "fields": {
+                "quote": {
+                    "en-US": "Maybe in order to understand mankind, we have to look at the word itself: “Mankind.” Basically, it’s made up of two separate words, mank and ind. What do these words mean? It’s a mystery, and that’s why so is mankind."
+                },
+                "category": {
+                    "en-US": "humanity"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "ts1zp59r04ps"
+                    }
+                },
+                "id": "1TGJzEvdzyOUuW0UYgweC4",
+                "type": "Entry",
+                "createdAt": "2017-06-10T22:44:03.082Z",
+                "updatedAt": "2017-06-10T22:44:13.123Z",
+                "createdBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "updatedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "publishedCounter": 1,
+                "version": 5,
+                "publishedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "publishedVersion": 4,
+                "firstPublishedAt": "2017-06-10T22:44:13.095Z",
+                "publishedAt": "2017-06-10T22:44:13.095Z",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "deepThought"
+                    }
+                }
+            },
+            "fields": {
+                "quote": {
+                    "en-US": "Children need encouragement. If a kid gets an answer right, tell him it was a lucky guess. That way he develops a good, lucky feeling."
+                },
+                "category": {
+                    "en-US": "children"
+                }
+            }
+        },
+        {
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "ts1zp59r04ps"
+                    }
+                },
+                "id": "1Z28ZBrHiw0yCum2CauouQ",
+                "type": "Entry",
+                "createdAt": "2017-06-10T22:44:42.430Z",
+                "updatedAt": "2017-06-10T22:44:49.459Z",
+                "createdBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "updatedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "publishedCounter": 1,
+                "version": 5,
+                "publishedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "publishedVersion": 4,
+                "firstPublishedAt": "2017-06-10T22:44:49.420Z",
+                "publishedAt": "2017-06-10T22:44:49.420Z",
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "deepThought"
+                    }
+                }
+            },
+            "fields": {
+                "quote": {
+                    "en-US": "Dad always thought laughter was the best medicine, which I guess is why several of us died of tuberculosis."
+                },
+                "category": {
+                    "en-US": "death"
+                }
+            }
+        }
+    ],
+    "assets": [],
+    "locales": [
+        {
+            "name": "U.S. English",
+            "code": "en-US",
+            "fallbackCode": null,
+            "default": true,
+            "contentManagementApi": true,
+            "contentDeliveryApi": true,
+            "optional": false,
+            "sys": {
+                "type": "Locale",
+                "id": "3JB24DLFWweBu9O7Mp8XQi",
+                "version": 0,
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "ts1zp59r04ps"
+                    }
+                },
+                "createdBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "createdAt": "2017-06-10T22:38:42Z",
+                "updatedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "updatedAt": "2017-06-10T22:38:42Z"
+            }
+        }
+    ],
+    "webhooks": [],
+    "roles": [
+        {
+            "name": "Developer",
+            "description": "Allows reading Entries and managing API Keys",
+            "policies": [
+                {
+                    "effect": "allow",
+                    "actions": [
+                        "read"
+                    ],
+                    "constraint": {
+                        "and": [
+                            {
+                                "equals": [
+                                    {
+                                        "doc": "sys.type"
+                                    },
+                                    "Entry"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "effect": "allow",
+                    "actions": [
+                        "read"
+                    ],
+                    "constraint": {
+                        "and": [
+                            {
+                                "equals": [
+                                    {
+                                        "doc": "sys.type"
+                                    },
+                                    "Asset"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "permissions": {
+                "ContentModel": [
+                    "read"
+                ],
+                "Settings": [],
+                "ContentDelivery": "all"
+            },
+            "sys": {
+                "type": "Role",
+                "id": "3JBIuyYHUPZC7qPuSA8ltc",
+                "version": 0,
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "ts1zp59r04ps"
+                    }
+                },
+                "createdBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "createdAt": "2017-06-10T22:38:42Z",
+                "updatedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "updatedAt": "2017-06-10T22:38:42Z"
+            }
+        },
+        {
+            "name": "Editor",
+            "description": "Allows editing, publishing and archiving of content",
+            "policies": [
+                {
+                    "effect": "allow",
+                    "actions": "all",
+                    "constraint": {
+                        "and": [
+                            {
+                                "equals": [
+                                    {
+                                        "doc": "sys.type"
+                                    },
+                                    "Entry"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "effect": "allow",
+                    "actions": "all",
+                    "constraint": {
+                        "and": [
+                            {
+                                "equals": [
+                                    {
+                                        "doc": "sys.type"
+                                    },
+                                    "Asset"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "permissions": {
+                "ContentModel": [
+                    "read"
+                ],
+                "Settings": [],
+                "ContentDelivery": []
+            },
+            "sys": {
+                "type": "Role",
+                "id": "3JCRkM4pcpGf2FJVVbskES",
+                "version": 0,
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "ts1zp59r04ps"
+                    }
+                },
+                "createdBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "createdAt": "2017-06-10T22:38:42Z",
+                "updatedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "updatedAt": "2017-06-10T22:38:42Z"
+            }
+        }
+    ],
+    "editorInterfaces": [
+        {
+            "controls": [
+                {
+                    "fieldId": "quote",
+                    "widgetId": "markdown"
+                },
+                {
+                    "fieldId": "category",
+                    "widgetId": "dropdown"
+                }
+            ],
+            "sys": {
+                "id": "default",
+                "type": "EditorInterface",
+                "version": 2,
+                "createdAt": "2017-06-10T22:43:02.074Z",
+                "createdBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                },
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "ts1zp59r04ps"
+                    }
+                },
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "deepThought"
+                    }
+                },
+                "updatedAt": "2017-06-10T22:43:02.511Z",
+                "updatedBy": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "User",
+                        "id": "1YymV1oJNWhM1bidN1o2vi"
+                    }
+                }
+            }
+        }
+    ]
+}

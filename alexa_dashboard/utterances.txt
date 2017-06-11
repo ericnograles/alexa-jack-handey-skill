@@ -1,0 +1,4 @@
+JackHandeyIntent tell me a quote about {Subject}
+JackHandeyIntent inspire me with a quote about {Subject}
+JackHandeyIntent tell me a deep thought about {Subject}
+JackHandeyIntent do you have some deep thoughts about {Subject}
