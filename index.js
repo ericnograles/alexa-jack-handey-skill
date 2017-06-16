@@ -21,7 +21,7 @@ const languageStrings = {
             SKILL_NAME: 'Deep Thoughts by Jack Handey',
             WELCOME_MESSAGE: "Welcome to %s. You can ask a question like, tell me a quote about humanity? ... Now, what can I help you with?",
             WELCOME_REPROMPT: 'For instructions on what you can say, please say help me.',
-            DISPLAY_CARD_TITLE: '%s  - Deep Thoughts About %s.',
+            DISPLAY_CARD_TITLE: '',
             HELP_MESSAGE: "You can ask a question like, tell me a quote about humanity? ... Now, what can I help you with?",
             HELP_REPROMPT: "You can ask a question like, tell me a quote about humanity? ... Now, what can I help you with?",
             STOP_MESSAGE: 'Goodbye!',
