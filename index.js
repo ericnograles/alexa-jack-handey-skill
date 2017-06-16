@@ -28,8 +28,8 @@ const languageStrings = {
             DEEP_THOUGHTS_REPEAT_MESSAGE: 'Try saying repeat.',
             DEEP_THOUGHTS_NOT_FOUND_MESSAGE: "I\'m sorry, I currently do not know ",
             DEEP_THOUGHTS_NOT_FOUND_WITH_ITEM_NAME: 'a deep thought for %s. ',
-            DEEP_THOUGHTS_NOT_FOUND_WITHOUT_ITEM_NAME: 'that subject. ',
-            DEEP_THOUGHTS_NOT_FOUND_REPROMPT: 'Want to try another subject?',
+            DEEP_THOUGHTS_NOT_FOUND_WITHOUT_ITEM_NAME: 'that topic. ',
+            DEEP_THOUGHTS_NOT_FOUND_REPROMPT: 'Want to try another topic?',
             DEEP_THOUGHTS_NO_SUBJECT_MATCH: `Hmm, I don't know a deep thought about %s. Here's one you might like ... `
         },
     }
@@ -79,8 +79,7 @@ const handlers = {
                     // Specify if we had match
                     let speechOutput = noMatch && itemName ? self.t('DEEP_THOUGHTS_NO_SUBJECT_MATCH', itemName) + deepThought[index]: deepThought[index];
                     self.attributes.speechOutput = speechOutput;
-                    self.attributes.repromptSpeech = self.t('DEEP_THOUGHTS_REPEAT_MESSAGE');
-                    self.emit(':tellWithCard', speechOutput, self.attributes.repromptSpeech, cardTitle, speechOutput);
+                    self.emit(':tellWithCard', speechOutput, cardTitle, speechOutput);
                 } else {
                     console.log(`Could not find a deepThought for ${itemName} in ${JSON.stringify(deepThoughts)}. Tried ${JSON.stringify(deepThought)}`);
                     let speechOutput = self.t('DEEP_THOUGHTS_NOT_FOUND_MESSAGE');
