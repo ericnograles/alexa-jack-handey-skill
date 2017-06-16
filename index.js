@@ -53,7 +53,7 @@ const handlers = {
             itemName = subjectSlot.value.toLowerCase();
         }
 
-        const cardTitle = this.t('DISPLAY_CARD_TITLE', this.t('SKILL_NAME'), itemName);
+        const cardTitle = this.t('DISPLAY_CARD_TITLE', this.t('SKILL_NAME'));
 
         console.log('Calling Contentful');
         ContentfulService.deepThoughts()
